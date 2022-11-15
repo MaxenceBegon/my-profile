@@ -1,0 +1,105 @@
+/* Colors and fonts */
+
+body {
+    background: rgb(255, 205, 210);
+    color: #575F7D;
+    font-family: Lora;
+    font-size: 17px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: red;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+h2 {
+    color: rgb(255, 100, 100);
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+p {
+    color: rgb(22, 19, 19);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(200, 255, 170);
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: black;
+}
+
+/* Custom design with class */
+.img-circle{
+    border-radius: 50%;
+}
+#photo{
+    box-shadow: 0px 10px 10px rgba(255,0,0,0.9);
+  }
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 200px;
+    }
+}
+.card-white{
+    background-color: #F7F9FC;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 7px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.btn-red{
+    background-color: rgb(200, 255, 170);
+    color: black;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+.btn-red:hover{
+    background-color: black;
+    color: white;
+}
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{
+    font-size: 50px;
+    color: rgb(32, 187, 28);
+}
+.list-inline i:hover{
+    font-size: 50px;
+    color: rgb(34, 134, 158);
+}
+/* Design adjustments using id (1% design remaining) */
+#bouton p{
+    margin-bottom: 40px;
+}
